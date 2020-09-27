@@ -1,0 +1,47 @@
+body{
+  margin:0;
+  font-family: Georgia, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:21px;
+  color:#000000;  /*brown colour*/
+  line-height:1.6;
+}
+
+#showcase{
+  background-image:url('../img/envel.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+#showcase h1{
+  font-size:50px;
+  line-height:2.2;
+
+}
+
+#showcase p{
+	font-size: 30px;
+}
+
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  background:#d59667;
+  color:#000000;
+  border:#000000 2px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+#showcase .button:hover{
+  background:#b76734;
+  color:#fff;
+}
